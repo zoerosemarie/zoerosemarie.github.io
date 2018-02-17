@@ -1,0 +1,51 @@
+/*body
+{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+
+	background-color: #87CEFA;
+}*/
+
+@font-face {
+    font-family: 'palanquinregular';
+    src: url('css/palanquin-regular-webfont.woff2') format('woff2'),
+         url('css/palanquin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+	/*background-color: #ccffff;*/
+
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family:'palanquinregular';
+	color:white;
+	text-align: center;
+
+	border:3px;
+	border-style: solid;
+	border-color: white;
+	padding: 1em;
+}
+
+/*.stroke {
+	text-shadow:
+	-0.5px -0.5px 0 #fff,
+	0.5px -0.5px 0 #fff,
+	-0.5px 0.5px 0 #fff,
+	0.5px 0.5px 0 #fff;
+
+	border:3px;
+	border-style: solid;
+	border-color: #ffffff;
+	padding: 1em;
+}*/
+
+body {
+	height: 100vh;
+	padding-left: 20px;
+    background: linear-gradient(to bottom, #66ccff, #0066ff);
+}
